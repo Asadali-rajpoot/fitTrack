@@ -58,6 +58,9 @@ export default {
 		fontFamily: {
 			RubikFont: "var(--rubik-font)"
 		},
+		backgroundImage: {
+			"hero-bg": "url('/images/hero_backgound.png')"
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],

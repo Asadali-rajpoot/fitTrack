@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function Navbar(props) {
   return (
-    <div className="flex justify-between bg-hero-bg bg-cover bg-black py-4 px-5">
+    <div className="flex justify-between bg-transparent py-8 ">
       {/* logo */}
       <Image src={logo} alt="logo" className="h-8" quality={100} />
       {/* nav menu */}
       <ul className="flex items-center gap-5 *:font-RubikFont font-medium text-[#9e9e9e]">
         {/* individual items */}
-        <li>Home</li>
+        <li className="text-white">Home</li>
         <li>About</li>
         <li>Services</li>
         <li>Contact</li>
