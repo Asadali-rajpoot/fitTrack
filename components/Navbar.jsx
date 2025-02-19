@@ -8,7 +8,7 @@ export default function Navbar(props) {
       {/* logo */}
       <Image src={logo} alt="logo" className="h-8" quality={100} />
       {/* nav menu */}
-      <ul className="flex items-center gap-5 *:font-RubikFont font-medium text-[#9e9e9e]">
+      <ul className="flex items-center gap-5 *:font-RubikFont font-medium text-[#9e9e9e] ">
         {/* individual items */}
         <li className="text-white">Home</li>
         <li>About</li>
