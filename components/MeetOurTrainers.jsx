@@ -17,8 +17,8 @@ export default function MeetOurTrainers() {
             Meet Our Trainers
           </h1>
           <p className="font-medium font-RubikFont text-lg leading-7 text-gray-500 text-center w-[600px]">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores
-            laudantium voluptate aut ducimus labore?
+            Effortless Gym Management – Optimize, Automate, and Grow with
+            FitTrack
           </p>
         </div>
         {/* grid layout */}
@@ -30,7 +30,7 @@ export default function MeetOurTrainers() {
             <Image src={frame3} alt="frame3" className="h-full" />
           </div>
           {/* second row */}
-          <div  className="flex gap-2 h-60">
+          <div className="flex gap-2 h-60">
             <Image src={frame4} alt="frame4" className="h-full" />
             <Image src={frame5} alt="frame5" className="h-full" />
             <Image src={frame6} alt="frame6" className="h-full" />

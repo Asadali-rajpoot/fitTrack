@@ -1,8 +1,11 @@
+"use client"
 import { Button } from "./ui/button";
 import logo from "@/public/images/logo.png"
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Navbar(props) {
+  const router = useRouter()
   return (
     <div className="flex justify-between bg-transparent py-8 ">
       {/* logo */}
@@ -16,7 +19,7 @@ export default function Navbar(props) {
         <li>Contact</li>
       </ul>
       {/* join now button */}
-      <Button className="bg-white text-[#212121] font-RubikFont font-semibold text-sm hover:bg-white/80">Join now</Button>
+      <Button onClick={() => router.push("/signup")} className="bg-white text-[#212121] font-RubikFont font-semibold text-sm hover:bg-white/80">Join now</Button>
     </div>
   )
 }

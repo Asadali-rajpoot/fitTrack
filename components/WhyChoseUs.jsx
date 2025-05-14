@@ -56,7 +56,7 @@ export default function WhyChoseUs() {
             <div key={index} className="flex items-start gap-4">
               {/* card avatar */}
               <div className="size-10 rounded-full flex items-center justify-center bg-[#424242] overflow-hidden">
-                <Image src={item.avatar} className="h-6 w-6" />
+                <Image src={item.avatar} alt="avatar" className="h-6 w-6" />
               </div>
               <div>
                 {/* card content */}
@@ -74,11 +74,11 @@ export default function WhyChoseUs() {
         {/* grid cards */}
         <div className="flex items-center gap-2">
           <div className="flex flex-col">
-            <Image src={Rectangle1} className="h-[250px] " />
-            <Image src={Rectangle2} className="h-[250px]" />
+            <Image src={Rectangle1} alt="Rectangle1" className="h-[250px] " />
+            <Image src={Rectangle2} alt="Rectangle2" className="h-[250px]" />
           </div>
           {/* big rectangle */}
-          <Image src={Rectangle3} className="h-[500px]" />
+          <Image src={Rectangle3} alt="Rectangle3" className="h-[500px]" />
         </div>
       </div>
     </div>
